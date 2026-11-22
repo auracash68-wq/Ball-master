@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Ground contact shadow -->
+    <path
+        android:fillColor="#662E1103"
+        android:pathData="M29,82 C29,78.5 40,76 54,76 C68,76 79,78.5 79,82 C79,85.5 68,88 54,88 C40,88 29,85.5 29,82 Z" />
+
+    <!-- Golden Crown above clay pot -->
+    <path
+        android:pathData="M39,35 L35,23 L45,28 L54,19 L63,28 L73,23 L69,35 Z"
+        android:strokeColor="#542407"
+        android:strokeWidth="2.2"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="18"
+                android:endX="54"
+                android:endY="36"
+                android:type="linear">
+                <item android:color="#FFF378" android:offset="0.0" />
+                <item android:color="#FFD52E" android:offset="0.45" />
+                <item android:color="#D8781C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path android:fillColor="#FFF59D" android:pathData="M54,17 m-2.3,0 a2.3,2.3 0 1,0 4.6,0 a2.3,2.3 0 1,0 -4.6,0" />
+    <path android:fillColor="#FFD52E" android:pathData="M35,21.5 m-1.9,0 a1.9,1.9 0 1,0 3.8,0 a1.9,1.9 0 1,0 -3.8,0" />
+    <path android:fillColor="#FFD52E" android:pathData="M73,21.5 m-1.9,0 a1.9,1.9 0 1,0 3.8,0 a1.9,1.9 0 1,0 -3.8,0" />
+
+    <!-- Inverted Terracotta Clay Cup -->
+    <path
+        android:pathData="M42,40 L66,40 C72,40 76,56 77,77 C77,79.5 75,81 72,81 L36,81 C33,81 31,79.5 31,77 C32,56 36,40 42,40 Z"
+        android:strokeColor="#542407"
+        android:strokeWidth="2.4"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="33"
+                android:startY="42"
+                android:endX="75"
+                android:endY="80"
+                android:type="linear">
+                <item android:color="#F49A3E" android:offset="0.0" />
+                <item android:color="#D86919" android:offset="0.52" />
+                <item android:color="#9A3F0B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Golden Ball inside silhouette -->
+    <path android:pathData="M54,52 A10.5,10.5 0 1,1 53.9,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="51"
+                android:centerY="59"
+                android:gradientRadius="12"
+                android:type="radial">
+                <item android:color="#FFFFC6" android:offset="0.0" />
+                <item android:color="#FFD52E" android:offset="0.55" />
+                <item android:color="#B3D8781C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Terracotta decorative cream wave and dots -->
+    <path
+        android:pathData="M33,71 Q38.5,66 44,71 T55,71 T66,71 T75,71"
+        android:strokeColor="#FFF4DC"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round" />
+    <path android:fillColor="#FFF4DC" android:pathData="M38.5,74.5 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFF4DC" android:pathData="M49.5,67.5 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFF4DC" android:pathData="M60.5,74.5 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+    <path android:fillColor="#FFF4DC" android:pathData="M70,67.5 m-1.7,0 a1.7,1.7 0 1,0 3.4,0 a1.7,1.7 0 1,0 -3.4,0" />
+
+    <!-- Bottom flared rim highlight -->
+    <path
+        android:pathData="M30.5,79.5 Q54,82.5 77.5,79.5"
+        android:strokeColor="#F6B83B"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+</vector>

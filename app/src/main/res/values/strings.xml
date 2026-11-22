@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Ball Master</string>
+    <string name="splash_title_ball">BALL</string>
+    <string name="splash_title_master">MASTER</string>
+    <string name="splash_subtitle">FIND THE GOLDEN BALL</string>
+    <string name="splash_loading">Loading...</string>
+
+    <string name="hud_level_prefix">Level</string>
+    <string name="hud_level_total">/ 50</string>
+    <string name="hud_game_pass">Game Pass</string>
+    <string name="question_prefix">Where is the </string>
+    <string name="question_ball">ball</string>
+    <string name="question_suffix">?</string>
+
+    <string name="select_level_title">Select Level</string>
+    <string name="level_completed_title">LEVEL COMPLETED!</string>
+    <string name="reward_coins_format">+%1$d Coins</string>
+    <string name="reward_already_claimed">Reward Claimed</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_continue">Continue</string>
+
+    <string name="game_paused_title">Game Paused</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_restart_level">Restart Level</string>
+    <string name="action_level_selection">Level Selection</string>
+    <string name="setting_sound">Sound</string>
+    <string name="setting_vibration">Vibration</string>
+
+    <string name="game_over_title">Game Over</string>
+    <string name="game_over_line_1">Better Luck</string>
+    <string name="game_over_line_2">Next Time!</string>
+    <string name="action_level_skip">Level Skip</string>
+
+    <string name="cd_pause_game">Pause Game</string>
+    <string name="cd_close_pause">Close Pause Menu</string>
+    <string name="cd_prev_levels">Previous Level Page</string>
+    <string name="cd_next_levels">Next Level Page</string>
+    <string name="cd_cup_slot">Clay cup position %1$d</string>
+    <string name="cd_answer_button">Choose cup %1$d</string>
+    <string name="cd_level_unlocked">Play Level %1$d</string>
+    <string name="cd_level_locked">Level %1$d Locked</string>
+    <string name="cd_coins_balance">Coin balance %1$d</string>
+    <string name="cd_toggle_sound">Toggle Sound</string>
+    <string name="cd_toggle_vibration">Toggle Vibration</string>
+</resources>

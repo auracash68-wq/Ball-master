@@ -1,0 +1,6 @@
+{
+  "name": "Ball Master",
+  "description": "Find the golden ball in this vibrant 3D cartoon wooden jungle shell game with 50 progressively challenging levels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
